@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT config (setups+)>
+<!ELEMENT setups (name, comment, settings)>
+<!ATTLIST setups
+          number CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT comment (#PCDATA)>
+<!ELEMENT settings (grid+)>
+<!ELEMENT grid (mode, voltage, charge_time)>
+<!ATTLIST grid
+          number CDATA #REQUIRED>
+<!ELEMENT mode (#PCDATA)>
+<!ELEMENT voltage (#PCDATA)>
+<!ELEMENT charge_time (#PCDATA)>

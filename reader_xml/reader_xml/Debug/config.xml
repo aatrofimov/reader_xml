@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!--Пример сценария эксперимента на токамаке Т-15 -->
+   <config>
+     <setups number="1">
+       <name>First</name>
+       <comment>Эксперимент номер 1</comment>
+       <settings>
+                 <grid number="1">
+                       <mode>off</mode>
+                       <voltage>0</voltage>
+                       <charge_time>0</charge_time>
+                 </grid>
+                 <grid number="2">
+                       <mode>goi</mode>
+                       <voltage>150</voltage>
+                       <charge_time>300</charge_time>
+                 </grid>
+                 <grid number="3">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="4">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="5">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="6">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="7">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="8">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="9">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="10">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="11">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="12">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="13">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="14">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="15">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="16">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="17">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="18">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="19">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="20">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="21">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="22">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+       </settings>
+     </setups>
+     <setups number="M2">
+       <name>Second</name>
+       <comment>Эксперимент номер 2</comment>
+       <settings>
+                 <grid number="1">
+                       <mode>off</mode>
+                       <voltage>0</voltage>
+                       <charge_time>0</charge_time>
+                 </grid>
+                 <grid number="2">
+                       <mode>goi</mode>
+                       <voltage>150</voltage>
+                       <charge_time>300</charge_time>
+                 </grid>
+                 <grid number="3">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="4">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="5">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="6">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="7">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="8">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="9">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="10">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="11">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="12">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="13">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="14">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="15">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="16">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="17">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="18">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="19">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="20">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="21">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="22">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+       </settings>
+     </setups>
+     <setups number="M3">
+       <name>Third</name>
+       <comment>Эксперимент номер 3</comment>
+       <settings>
+                 <grid number="1">
+                       <mode>off</mode>
+                       <voltage>0</voltage>
+                       <charge_time>0</charge_time>
+                 </grid>
+                 <grid number="2">
+                       <mode>goi</mode>
+                       <voltage>150</voltage>
+                       <charge_time>300</charge_time>
+                 </grid>
+                 <grid number="3">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="4">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="5">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="6">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="7">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="8">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="9">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="10">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="11">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="12">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="13">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="14">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="15">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="16">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="17">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="18">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="19">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="20">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="21">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="22">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+       </settings>
+     </setups>
+     <setups number="M4">
+       <name/>
+       <comment>Эксперимент номер 4</comment>
+       <settings>
+                 <grid number="1">
+                       <mode>off</mode>
+                       <voltage>0</voltage>
+                       <charge_time>0</charge_time>
+                 </grid>
+                 <grid number="2">
+                       <mode>goi</mode>
+                       <voltage>150</voltage>
+                       <charge_time>300</charge_time>
+                 </grid>
+                 <grid number="3">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="4">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="5">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="6">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="7">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="8">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="9">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="10">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="11">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="12">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="13">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="14">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="15">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="16">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="17">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="18">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="19">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="20">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="21">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="22">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+       </settings>
+     </setups>
+     <setups number="M5">
+       <name/>
+       <comment>Эксперимент номер 5, проверка на объем текста. Спецификация XML описывает язык и ряд вопросов, касающихся кодировки и обработки документов. Материал этой секции представляет собой сокращённое изложение описания языка в Спецификации XML, адаптированное для настоящей статьи.
+
+Нормативным считается английский вариант документа, поэтому основные термины приводятся с их английскими оригиналами.
+
+Перевод основных терминов в основном следует доступному в интернете переводу Спецификации на русский язык, исключение составляют термины tag и declaration.
+
+Для термина tag здесь используется перевод тег как соответствующий текущим нормам русского языка.
+
+Для термина declaration отдано предпочтение распространённому переводу объявление (против также распространённой кальки декларация).
+
+В литературе и интернете могут встречаться и иные переводы основных терминов.
+
+</comment>
+       <settings>
+                 <grid number="1">
+                       <mode>off</mode>
+                       <voltage>0</voltage>
+                       <charge_time>0</charge_time>
+                 </grid>
+                 <grid number="2">
+                       <mode>goi</mode>
+                       <voltage>150</voltage>
+                       <charge_time>300</charge_time>
+                 </grid>
+                 <grid number="3">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="4">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="5">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="6">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="7">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="8">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="9">
+                       <mode>vim</mode>
+                       <voltage>1500</voltage>
+                       <charge_time>150</charge_time>
+                 </grid>
+                 <grid number="10">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="11">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="12">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="13">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="14">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="15">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="16">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="17">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="18">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="19">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="20">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="21">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>200</charge_time>
+                 </grid>
+                 <grid number="22">
+                       <mode>vim</mode>
+                       <voltage>1000</voltage>
+                       <charge_time>???</charge_time>
+                 </grid>
+       </settings>
+     </setups>
+   </config>
+
+
+
+

@@ -1,0 +1,114 @@
+Load result: No error
+Пример сценария эксперимента на токамаке Т-15
+First
+Эксперимент номер 1
+number = 1
+off
+0
+0
+
+number = 2
+goi
+150
+300
+
+number = 3
+vim
+1000
+200
+
+number = 4
+vim
+1000
+200
+
+number = 5
+vim
+1000
+200
+
+number = 6
+vim
+1000
+200
+
+number = 7
+vim
+1000
+200
+
+number = 8
+vim
+1500
+150
+
+number = 9
+vim
+1500
+150
+
+number = 10
+vim
+1000
+200
+
+number = 11
+vim
+1000
+200
+
+number = 12
+vim
+1000
+200
+
+number = 13
+vim
+1000
+200
+
+number = 14
+vim
+1000
+200
+
+number = 15
+vim
+1000
+200
+
+number = 16
+vim
+1000
+200
+
+number = 17
+vim
+1000
+200
+
+number = 18
+vim
+1000
+200
+
+number = 19
+vim
+1000
+200
+
+number = 20
+vim
+1000
+200
+
+number = 21
+vim
+1000
+200
+
+number = 22
+vim
+1000
+200
+

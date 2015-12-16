@@ -1,0 +1,13 @@
+﻿Сборка начата 25.03.2015 1:46:49.
+     1>Проект "d:\documents\visual studio 2013\Projects\pugixml\pugixml\pugixml.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt pugixml.cpp
+         pugixml.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"d:\documents\visual studio 2013\Projects\pugixml\Debug\pugixml.lib" /NOLOGO Debug\pugixml.obj
+         pugixml.vcxproj -> d:\documents\visual studio 2013\Projects\pugixml\Debug\pugixml.lib
+     1>Сборка проекта "d:\documents\visual studio 2013\Projects\pugixml\pugixml\pugixml.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:01.38

@@ -1,0 +1,59 @@
+﻿Сборка начата 25.03.2015 5:19:21.
+     1>Проект "D:\Documents\Visual Studio 2013\Projects\libiconv\libiconv\libiconv.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBICONV_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt iconv.c localcharset.c relocatable.c
+         iconv.c
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\utf7.h(162): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\utf7.h(331): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\hz.h(39): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\hz.h(51): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\hz.h(57): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\hz.h(65): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\hz.h(80): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\loop_unicode.h(47): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\loop_unicode.h(91): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\loop_unicode.h(142): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\loop_unicode.h(258): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\loop_unicode.h(418): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\loop_unicode.h(422): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\loop_unicode.h(503): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>d:\documents\visual studio 2013\projects\libiconv\libiconv\include\loop_unicode.h(519): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>iconv.c(219): warning C4273: libiconv_open: несовместимая компоновка dll
+                 d:\documents\visual studio 2013\projects\libiconv\libiconv\include\iconv.h(81): см. предыдущее определение "libiconv_open"
+     1>iconv.c(249): warning C4273: libiconv: несовместимая компоновка dll
+                 d:\documents\visual studio 2013\projects\libiconv\libiconv\include\iconv.h(91): см. предыдущее определение "libiconv"
+     1>iconv.c(260): warning C4273: libiconv_close: несовместимая компоновка dll
+                 d:\documents\visual studio 2013\projects\libiconv\libiconv\include\iconv.h(98): см. предыдущее определение "libiconv_close"
+     1>iconv.c(281): warning C4273: libiconv_open_into: несовместимая компоновка dll
+                 d:\documents\visual studio 2013\projects\libiconv\libiconv\include\iconv.h(140): см. предыдущее определение "libiconv_open_into"
+     1>iconv.c(303): warning C4273: libiconvctl: несовместимая компоновка dll
+                 d:\documents\visual studio 2013\projects\libiconv\libiconv\include\iconv.h(145): см. предыдущее определение "libiconvctl"
+     1>iconv.c(378): warning C4273: libiconvlist: несовместимая компоновка dll
+                 d:\documents\visual studio 2013\projects\libiconv\libiconv\include\iconv.h(225): см. предыдущее определение "libiconvlist"
+     1>iconv.c(427): warning C4090: функция: разные квалификаторы "const"
+     1>iconv.c(488): warning C4273: iconv_canonicalize: несовместимая компоновка dll
+                 d:\documents\visual studio 2013\projects\libiconv\libiconv\include\iconv.h(232): см. предыдущее определение "iconv_canonicalize"
+     1>iconv.c(594): warning C4273: _libiconv_version: несовместимая компоновка dll
+                 d:\documents\visual studio 2013\projects\libiconv\libiconv\include\iconv.h(33): см. предыдущее определение "_libiconv_version"
+         localcharset.c
+     1>localcharset.c(360): warning C4273: locale_charset: несовместимая компоновка dll
+                 d:\documents\visual studio 2013\projects\libiconv\libiconv\localcharset.h(42): см. предыдущее определение "locale_charset"
+     1>localcharset.c(468): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356): см. объявление "sprintf"
+         relocatable.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\libiconv.res" libiconv.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\Visual Studio 2013\Projects\libiconv\Release\libiconv.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\Visual Studio 2013\Projects\libiconv\Release\libiconv.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\Visual Studio 2013\Projects\libiconv\Release\libiconv.lib" /MACHINE:X86 /SAFESEH /DLL Release\libiconv.res
+         Release\iconv.obj
+         Release\localcharset.obj
+         Release\relocatable.obj
+            Создается библиотека D:\Documents\Visual Studio 2013\Projects\libiconv\Release\libiconv.lib и объект D:\Documents\Visual Studio 2013\Projects\libiconv\Release\libiconv.exp
+         Создание кода
+         Создание кода завершено
+         libiconv.vcxproj -> D:\Documents\Visual Studio 2013\Projects\libiconv\Release\libiconv.dll
+     1>Сборка проекта "D:\Documents\Visual Studio 2013\Projects\libiconv\libiconv\libiconv.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:03.16

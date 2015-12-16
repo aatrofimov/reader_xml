@@ -1,0 +1,19 @@
+﻿Сборка начата 23.03.2015 23:09:43.
+     1>Проект "d:\documents\visual studio 2013\Projects\libiconv\libiconv\libiconv.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBICONV_EXPORTS /D BUILDING_LIBICONV /D BUILDING_LIBCHARSET /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"d:\documents\visual studio 2013\Projects\libiconv\obj\libiconv\Debug_Win32\\" /Fd"d:\documents\visual studio 2013\Projects\libiconv\obj\libiconv\Debug_Win32\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt relocatable.c
+         relocatable.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"d:\documents\visual studio 2013\Projects\libiconv\obj\libiconv\Debug_Win32\libiconv.res" libiconv.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\documents\visual studio 2013\Projects\libiconv\Debug_Win32\libiconv.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\documents\visual studio 2013\Projects\libiconv\Debug_Win32\libiconv.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\documents\visual studio 2013\Projects\libiconv\Debug_Win32\libiconv.lib" /MACHINE:X86 /DLL "d:\documents\visual studio 2013\Projects\libiconv\obj\libiconv\Debug_Win32\libiconv.res"
+         "d:\documents\visual studio 2013\Projects\libiconv\obj\libiconv\Debug_Win32\iconv.obj"
+         "d:\documents\visual studio 2013\Projects\libiconv\obj\libiconv\Debug_Win32\localcharset.obj"
+         "d:\documents\visual studio 2013\Projects\libiconv\obj\libiconv\Debug_Win32\relocatable.obj"
+            Создается библиотека d:\documents\visual studio 2013\Projects\libiconv\Debug_Win32\libiconv.lib и объект d:\documents\visual studio 2013\Projects\libiconv\Debug_Win32\libiconv.exp
+         libiconv.vcxproj -> d:\documents\visual studio 2013\Projects\libiconv\Debug_Win32\libiconv.dll
+     1>Сборка проекта "d:\documents\visual studio 2013\Projects\libiconv\libiconv\libiconv.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.08
